@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio de Joel Ewers - desarrollador web en formación">
+    <meta name="theme-color" content="#2B2B3A">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- preload hero image to improve LCP -->
+    <link rel="preload" as="image" href="img/profile.png">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Joel Ewers — Portfolio</title>
+</head>
+<body>
+    <!-- custom cursor removed -->
+
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#">
+                <img src="img/logo1.png" alt="Logo Joel Ewers" width="46" height="46" decoding="async" loading="eager">
+                <span>Joel Ewers</span>
+            </a>
+            <nav class="nav">
+                <a href="#">Home</a>
+                <a href="#about">About me</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <h1>Hi, I'm Joel</h1>
+                    <p class="lead">Web developer Junior — HTML, CSS, JavaScript, and Python. Experienced in the most advanced web tecnologies. Every project that I take, I take compromise and responsability offering the most complete experience to the final user.</p>
+                    <a class="cta" href="#projects"><span class="btn-label">View projects</span></a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/profile.png" alt="Foto de Joel" width="300" decoding="async" loading="eager" fetchpriority="high">
+                </div>
+            </div>
+            <div id="about">
+        </section>
+
+        <section id="about" class="about container">
+            <h2 class="section-title">About me</h2>
+            <div class="about-grid">
+                <div class="card about-card">
+                    <h3>Joel Ewers Oliva</h3>
+                    <p>19 years old — 3+ years of experience on web development tecnologies. Certificates in CSS, Python, Cisco CCNAv7 and JavaScript.</p>
+                    <div class="skills">
+                        <span class="badge">HTML &amp; CSS</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">Python</span>
+                        <span class="badge">SQL Server</span>
+                        <span class="badge">Java</span>
+                        <span class="badge">C#</span>
+                        <span class="badge">React Native</span>
+                        <span class="badge">Visual Studio</span>
+                        <span class="badge">.NET Core</span>
+                        <span class="badge">Cisco CCNA</span>
+                        <span class="badge">Windows Forms</span>
+                        <span class="badge">Git</span>
+                        <span class="badge">Adobe Photoshop</span>
+                        <span class="badge">Microsoft Office 365</span>
+                        <span class="badge">TypeScript</span>
+                        <span class="badge">SAML</span>
+                        <span class="badge">C++</span>
+                    </div>
+                </div>
+                
+                <div class="card stats-card">
+                    <h3>Latest project</h3>
+                    <p>Responsive UI built with HTML/CSS/JS.</p>
+                    <a href="#projects" class="muted-link">View work</a>
+                    <div id="projects"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="card project-card">
+                    <img src="img/pasantia2023.png" alt="Pasantía 2023" class="project-image" width="640" height="360" loading="lazy" decoding="async">
+                    <div class="card-body">
+                        <h3>Internship 2023</h3>
+                        <p>Responsive project for an outsourcing company. HTML, CSS, JavaScript.</p>
+                        <img src="img/logos/html.png" alt="HTML logo" class="tech-logo" width="36" height="36" loading="lazy" decoding="async">
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <img src="img/ExpoFeria.png" alt="ExpoFeria" class="project-image" width="640" height="360" loading="lazy" decoding="async">
+                    <div class="card-body">
+                        <h3>TensorFlow powered Project</h3>
+                        <p>AI-controlled game using TensorFlow and Python — demo for an expo.</p>
+                        <img src="img/logos/tensorflow.png" alt="TensorFlow logo" class="tech-logo" width="36" height="36" loading="lazy" decoding="async">
+                    </div>
+                </article>
+
+                <article class="card project-card">
+                    <img src="img/bank.png" alt="Portafolio" class="project-image" width="640" height="360" loading="lazy" decoding="async">
+                    <div class="card-body">
+                        <h3>Digital Bank project</h3>
+                        <p>Online bank with features such as login, currency converter with an API integration.</p>
+                        <img src="img/logos/html.png" alt="HTML logo" class="tech-logo" width="36" height="36" loading="lazy" decoding="async">
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="showcase" class="video container">
+            <h2 class="section-title">How do I work?</h2>
+            <div class="card video-card">
+                <video class="video-player" src="img/Proyecto.mp4" autoplay muted loop playsinline preload="metadata" width="1280" height="720"></video>
+                <div class="video-overlay">
+                    <div class="video-caption">
+                        <h3>Unsure about results?</h3>
+                        <p>Quick peak of one of my biggest projects — short, sharp, and visual.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="achievements" class="achievements container">
+            <div class="achievements-inner">
+                <div class="achievements-heading">
+                    <h2>Stats</h2>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat">
+                        <div class="value">150</div>
+                        <div class="label">Digital products launched</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">95%</div>
+                        <div class="label">Average client retention rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">$1.2B</div>
+                        <div class="label">Client revenue growth</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">5+</div>
+                        <div class="label">Teams working globally</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-grid">
+                <div class="card contact-card">
+                    <h3>Get in touch</h3>
+                    <p>Email: <a href="mailto:joelewers3@gmail.com">joelewers3@gmail.com</a></p>
+                    <p>WhatsApp: <a href="https://api.whatsapp.com/send/?phone=%2B50664175240" target="_blank">+506 6417 5240</a></p>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/ewers.ss/" target="_blank">Instagram  </a>
+                        <a href="https://www.linkedin.com/in/joel-ewers-8546471b3/" target="_blank">LinkedIn  </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+                <div class="brand-foot">
+                <img src="img/logo1.png" alt="logo" width="46" height="46" decoding="async" loading="eager">
+                <div>
+                    <p>Joel Ewers — ©2026</p>
+                    <small>Project for informational purposes.</small>
+                </div>
+            </div>
+            <nav class="footer-nav">
+                <a href="#">Home  </a>
+                <a href="#projects">Projects  </a>
+                <a href="#contact">Contact  </a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="java.js" defer></script>
+</body>
+</html>
