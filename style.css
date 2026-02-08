@@ -25,7 +25,7 @@ body{
     color:var(--text);
     -webkit-font-smoothing:antialiased;
     -moz-osx-font-smoothing:grayscale;
-    background:
+    background-color:
         radial-gradient(900px 500px at 15% 20%, rgba(190, 140, 255, 0.18), transparent 60%),
         radial-gradient(700px 420px at 85% 25%, rgba(120, 220, 255, 0.12), transparent 58%),
         radial-gradient(600px 380px at 60% 80%, rgba(255, 90, 180, 0.10), transparent 55%),
