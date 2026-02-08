@@ -49,7 +49,6 @@ body::before{
   position: fixed;
   top: 20px;
   right: 20px;
-  top: 75px;
   z-index: 1001; /* más alto que la nav bar */
   background: none;
   border: none;
@@ -64,6 +63,7 @@ body::before{
   inset: 0;                 /* top:0 right:0 bottom:0 left:0 */
   height: 100vh;
   width: 100vw;
+  top: 75px;
   background: rgba(0,0,0,0.98);
   z-index: 99999;
 
