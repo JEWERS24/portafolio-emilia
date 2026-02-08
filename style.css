@@ -16,7 +16,7 @@
 
 /* Base */
 *{box-sizing: border-box;scroll-margin-top:92px}
-html,body{height:100%;overflow-x: hidden;}
+html,body{height:100%;overflow-x: hidden;-webkit-user-select: none;-ms-user-select: none;user-select: none;}
 html{scroll-behavior:smooth}
 body{
     margin:0;
@@ -48,7 +48,6 @@ body::before{
 .menu-toggle {
   position: fixed;
   top: 20px;
-  right: 20px;
   z-index: 1001; /* más alto que la nav bar */
   background: none;
   border: none;
