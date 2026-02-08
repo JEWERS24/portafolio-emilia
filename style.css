@@ -16,7 +16,7 @@
 
 /* Base */
 *{box-sizing: border-box;scroll-margin-top:92px}
-html,body{height:100%}
+html,body{height:100%;overflow-x: hidden;}
 html{scroll-behavior:smooth}
 body{
     margin:0;
@@ -495,41 +495,3 @@ section{scroll-margin-top:92px}
 
 .muted-link{color:var(--muted)}
 .lead{line-height:1.5}
-
-.mobile-nav{
-  display: none;            /* default hidden on desktop */
-  position: fixed;
-  inset: 0;
-  top: 75px;
-  width: 100vw;
-  height: 85vh;
-  background: rgba(0,0,0,0.98);
-  z-index: 999999;
-
-  transform: translateX(100%);
-  transition: transform .35s ease;
-}
-
-.mobile-nav.open{
-  transform: translateX(0) !important; /* force override while debugging */
-}
-
-
-
-.mobile-nav-inner{
-  height: 100%;
-  padding: 96px 24px 32px;
-  display: flex;
-  flex-direction: column;
-}
-
-@media (max-width: 560px){
-  .mobile-nav{ display:block; }
-  .nav{ display:none; }
-  .menu-toggle{ display:block; }
-}
-
-@media (min-width: 561px){
-  .nav{ display:flex; }
-  .menu-toggle{ display:none; }
-}
