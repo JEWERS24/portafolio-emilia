@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio de Joel Ewers - desarrollador web en formación">
+    <meta name="theme-color" content="#2B2B3A">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700;900&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu"/>
+    <link rel="stylesheet" href="style.css">
+    <!-- preload hero image to improve LCP -->
+    <link rel="preload" as="image" href="img/profile.png">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <title>Joel Ewers — Portfolio</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#home">
+                <img src="img/logo1.png" alt="Logo Joel Ewers" width="46" height="46" decoding="async" loading="eager">
+                <span>Joel Ewers</span>
+            </a>
+            <nav class="nav">
+                <a href="#homebadge">/Home</a>
+                <a href="#about">/About me</a>
+                <a href="#projects">/Projects</a>
+                <a href="#contact">/Contact</a>
+            </nav>
+            <button class="menu-toggle" aria-expanded="false" aria-label="Open menu">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+
+            <nav class="mobile-nav" aria-hidden="true">
+                <div class="mobile-nav-inner">
+                    <a class="a" href="#homebadge">/Home</a>
+                    <a class="a" href="#about">/About me</a>
+                    <a class="a" href="#projects">/Projects</a>
+                    <a class="a" href="#contact">/Contact</a>
+
+                    <div class="divider"></div>
+
+                    <a class="small a" href="#">Twitter</a>
+                    <a class="small a" href="#">GitHub</a>
+                    <a class="small a" href="#">Instagram</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+             <span id="homebadge" class="anchor"></span>
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <span class="hire-badge"><span class="dot"></span> Available for hire</span>
+                    <h1>Hi, I'm Joel,<br>
+                    a web developer<br>
+                    from Costa Rica.</h1>
+                    <p class="lead">With a background in web development and a strong focus on UI — I build clear, responsive interfaces and reliable web experiences.</p>
+                    <a class="cta" href="#projects"><span class="btn-label">View projects</span></a>
+                </div>
+                <div class="hero-image">
+                    <img src="img/profile.png" alt="Foto de Joel" width="300" decoding="async" loading="eager" fetchpriority="high">
+                </div>
+                </div>
+            </section>
+
+
+
+        <section class="marquee-section" aria-hidden="true">
+            <div class="marquee container">
+                <!-- top track: left-to-right -->
+                <div class="marquee-track marquee-track--lr">
+                    <div class="marquee-group">
+                        <span class="marquee-item">DESIGN</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">RESEARCH</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">UI/UX</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">STRATEGY</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">BRANDING</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">DEVELOPMENT</span>
+                        <h1>•</h1>
+                    </div>
+                    <div class="marquee-group" aria-hidden="true">
+                        <span class="marquee-item">DESIGN</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">RESEARCH</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">UI/UX</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">STRATEGY</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">BRANDING</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">DEVELOPMENT</span>
+                        <h1>•</h1>
+                    </div>
+                </div>
+
+                <!-- bottom track: right-to-left (reverse) -->
+                <div class="marquee-track marquee-track--rl">
+                    <div class="marquee-group">
+                        <span class="marquee-item">DEVELOPMENT</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">BRANDING</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">STRATEGY</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">UI/UX</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">RESEARCH</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">DESIGN</span>
+                        <h1>•</h1>
+                    </div>
+                    <div class="marquee-group" aria-hidden="true">
+                        <span class="marquee-item">DEVELOPMENT</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">BRANDING</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">STRATEGY</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">UI/UX</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">RESEARCH</span>
+                        <h1>•</h1>
+                        <span class="marquee-item">DESIGN</span>
+                        <h1>•</h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <h2 class="section-title">About me</h2>
+            <div class="about-grid">
+                <div class="card about-card">
+                    <h3>Joel Ewers Oliva</h3>
+                    <p>19 years old — 3+ years of experience on web development tecnologies. Certificates in CSS, Python, Cisco CCNAv7 and JavaScript.</p>
+                    <div class="skills">
+                        <span class="badge">HTML &amp; CSS</span>
+                        <span class="badge">JavaScript</span>
+                        <span class="badge">Python</span>
+                        <span class="badge">SQL Server</span>
+                        <span class="badge">Java</span>
+                        <span class="badge">C#</span>
+                        <span class="badge">React Native</span>
+                        <span class="badge">Visual Studio</span>
+                        <span class="badge">.NET Core</span>
+                        <span class="badge">Cisco CCNA</span>
+                        <span class="badge">Windows Forms</span>
+                        <span class="badge">Git</span>
+                        <span class="badge">Adobe Photoshop</span>
+                        <span class="badge">Microsoft Office 365</span>
+                        <span class="badge">TypeScript</span>
+                        <span class="badge">SAML</span>
+                        <span class="badge">C++</span>
+                    </div>
+                </div>
+                
+                <div class="card stats-card">
+                    <h3>Latest project</h3>
+                    <p>Responsive UI built with HTML/CSS/JS.</p>
+                    <a href="#projects" class="muted-link">View work</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects container">
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+                <article class="card project-card">
+                    <div class="card-body">
+                        <h3>Internship 2023</h3>
+                        <p class="muted-sub">Branding &amp; App</p>
+                    </div>
+                    <img src="img/pasantia2023.png" alt="Pasantía 2023" class="project-image" width="640" height="360" loading="lazy" decoding="async">
+                </article>
+
+                <article class="card project-card">
+                    <div class="card-body">
+                        <h3>TensorFlow powered Project</h3>
+                        <p class="muted-sub">Website &amp; App</p>
+                    </div>
+                    <img src="img/ExpoFeria.png" alt="ExpoFeria" class="project-image" width="640" height="360" loading="lazy" decoding="async">
+                </article>
+
+                <article class="card project-card">
+                    <div class="card-body">
+                        <h3>Digital Bank project</h3>
+                        <p class="muted-sub">App &amp; Website</p>
+                    </div>
+                    <img src="img/bank.png" alt="Portafolio" class="project-image" width="640" height="360" loading="lazy" decoding="async">
+                </article>
+            </div>
+        </section>
+
+        <section id="faqs" class="faqs container">
+            <h2 class="section-title">FAQs</h2>
+            <div class="card faq-card">
+                <ul class="faq-list">
+                    <li class="faq-item">
+                        <button class="faq-toggle" aria-expanded="false">
+                            <span class="faq-icon">﹢</span>
+                            <span class="faq-question">What is my approach to web design?</span>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            I focus on clear, responsive interfaces — starting with research, rapid prototyping, and user-centred testing to deliver practical, maintainable products.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-toggle" aria-expanded="false">
+                            <span class="faq-icon">﹢</span>
+                            <span class="faq-question">How long does the web design process take?</span>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Timelines depend on scope — simple sites can be delivered in a few weeks, larger projects are planned and scoped with milestones.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-toggle" aria-expanded="false">
+                            <span class="faq-icon">﹢</span>
+                            <span class="faq-question">Can I update my website content myself after it's launched?</span>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Yes — I provide CMS options or documentation so clients can update text and images themselves, or I can manage updates on request.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-toggle" aria-expanded="false">
+                            <span class="faq-icon">﹢</span>
+                            <span class="faq-question">What is my process for website maintenance and support?</span>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            I offer maintenance packages that include updates, backups, and security checks — or ad-hoc support as needed.
+                        </div>
+                    </li>
+
+                    <li class="faq-item">
+                        <button class="faq-toggle" aria-expanded="false">
+                            <span class="faq-icon">﹢</span>
+                            <span class="faq-question">How do you handle project pricing and payments?</span>
+                        </button>
+                        <div class="faq-answer" hidden>
+                            Pricing is scoped per project; I typically ask for a deposit and milestone payments for larger builds. Get in touch for a tailored quote.
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials container">
+            <h2 class="section-title">TESTIMONIALS</h2>
+            <div class="testimonials-grid">
+                <article class="card testimonial-card">
+                    <div class="card-body">
+                        <span class="quote-mark"><div data-framer-component-type="SVG" data-framer-name="Quote Mark" name="Quote Mark" class="framer-1bjbumx" aria-hidden="true" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg style="width: 27px;height: 19px;" viewBox="0 0 27 19" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-597651980_267"></use></svg></div></div></span>
+                        <p class="testimonial-text">Narayan's product design skills are nothing short of exceptional. His ability to infuse creativity and innovation into every project is truly commendable. From concept to execution, Narayan consistently demonstrates a keen eye for detail and a unique approach to design that sets his work apart.</p>
+                        <div class="testimonial-meta">
+                            <img src="img/profile.png" alt="Orla Fagan" class="avatar" width="56" height="56" loading="lazy" decoding="async">
+                            <div class="meta-text">
+                                <div class="meta-name">Orla Fagan</div>
+                                <div class="meta-role">Fashion Designer</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card testimonial-card">
+                    <div class="card-body">
+                        <span class="quote-mark"><div data-framer-component-type="SVG" data-framer-name="Quote Mark" name="Quote Mark" class="framer-1bjbumx" aria-hidden="true" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg style="width: 27px;height: 19px;" viewBox="0 0 27 19" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-597651980_267"></use></svg></div></div></span>
+                        <p class="testimonial-text">Working with Narayan on product design projects has been a consistent positive experience. His attention to detail and commitment to delivering high-quality work — while meeting deadlines — makes him a reliable partner for complex builds.</p>
+                        <div class="testimonial-meta">
+                            <img src="img/profile.png" alt="Peter Smith" class="avatar" width="56" height="56" loading="lazy" decoding="async">
+                            <div class="meta-text">
+                                <div class="meta-name">Peter Smith</div>
+                                <div class="meta-role">Lead developer</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article class="card testimonial-card">
+                    <div class="card-body">
+                        <span class="quote-mark"><div data-framer-component-type="SVG" data-framer-name="Quote Mark" name="Quote Mark" class="framer-1bjbumx" aria-hidden="true" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg style="width: 27px;height: 19px;" viewBox="0 0 27 19" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-597651980_267"></use></svg></div></div></span>
+                        <p class="testimonial-text">The seamless integration of aesthetics with functionality is a hallmark of Narayan's work. His designs not only look visually appealing but also result in products that are intuitive and user-friendly.</p>
+                        <div class="testimonial-meta">
+                            <img src="img/profile.png" alt="Paula Regan" class="avatar" width="56" height="56" loading="lazy" decoding="async">
+                            <div class="meta-text">
+                                <div class="meta-name">Paula Regan</div>
+                                <div class="meta-role">Consultant</div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="showcase" class="video container">
+            <h2 class="section-title">How do I work?</h2>
+            <div class="card video-card">
+                <video class="video-player" src="img/Proyecto.mp4" autoplay muted loop playsinline preload="metadata" width="1280" height="720"></video>
+                <div class="video-overlay">
+                    <div class="video-caption">
+                        <h3>Unsure about results?</h3>
+                        <p>Quick peak of one of my biggest projects — short, sharp, and visual.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="achievements" class="achievements container">
+            <div class="achievements-inner">
+                <div class="achievements-heading">
+                    <h2>Stats</h2>
+                </div>
+                <div class="stats-grid">
+                    <div class="stat">
+                        <div class="value">150</div>
+                        <div class="label">Digital products launched</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">95%</div>
+                        <div class="label">Average client retention rate</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">$1.2B</div>
+                        <div class="label">Client revenue growth</div>
+                    </div>
+                    <div class="stat">
+                        <div class="value">5+</div>
+                        <div class="label">Teams working globally</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact container">
+            <h2 class="section-title">LET'S WORK TOGETHER</h2>
+            <div class="contact-row">
+                <a class="contact-card-large" href="mailto:joelewers3@gmail.com">
+                    <div class="contact-small">Say hello!</div>
+                    <div class="contact-email">joelewers3@gmail.com</div>
+                    <span class="contact-arrow" aria-hidden="true">↗</span>
+                </a>
+
+                <div class="socials-row" aria-label="social links">
+                    <a class="social-btn" href="#" aria-label="X">
+                       <svg style="width:29%;height:29%" viewBox="0 0 32 32" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-307749603_433"></use></svg>
+                    </a>
+                    <a class="social-btn" href="#" aria-label="Instagram">
+                        <svg style="width:30%;height:30%" viewBox="0 0 33 33" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-1113240288_1487"></use></svg>
+                    </a>
+                    <a class="social-btn" href="#" aria-label="Dribbble">
+                        <svg style="width:29%;height:29%" viewBox="0 0 32 32" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg-1297476223_1338"></use></svg>
+                    </a>
+                    <a class="social-btn" href="#" aria-label="Behance">
+                        <div data-framer-component-type="SVG" data-framer-name="behance 1" name="behance 1" class="framer-275u3y" aria-hidden="true" style="image-rendering: pixelated; flex-shrink: 0; fill: rgb(0, 0, 0); color: rgb(0, 0, 0);"><div class="svgContainer" style="width: 100%; height: 100%; aspect-ratio: inherit;"><svg style="width:33px;height:21px;" viewBox="0 0 33 21" preserveAspectRatio="none" width="100%" height="100%"><use href="#svg1327378344_1217"></use></svg></div></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+                <div class="brand-foot">
+                <img src="img/logo1.png" alt="logo" width="46" height="46" decoding="async" loading="eager">
+                <div>
+                    <p>Joel Ewers — ©2026</p>
+                    <small>Project for informational purposes.</small>
+                </div>
+            </div>
+            <nav class="footer-nav">
+                <a href="#home">/Home  </a>
+                <a href="#projects">/Projects  </a>
+                <a href="#contact">/Contact  </a>
+            </nav>
+        </div>
+    </footer>
+
+    <div id="svg-templates" style="position: absolute; overflow: hidden; bottom: 0; left: 0; width: 0; height: 0; z-index: 0; contain: strict" aria-hidden="true">
+            <svg width="27" height="19" viewBox="-1 -1 27 19" fill="none" id="svg-597651980_267">
+                <path d="M13.2605 16.3902L19.9846 0.303955H24.8984L20.7605 16.3902H13.2605ZM0.898438 16.3902L7.62258 0.303955H12.5364L8.39844 16.3902H0.898438Z" fill="#3366AC"></path>
+            </svg>
+            <svg width="31" height="30" viewBox="-1 -1 31 30" fill="none" id="svg1593346962_476">
+                <path d="M12.3388 6.2396L14.4941 4.08433L23.3527 5.23833L24.4898 14.1139L22.3515 16.2522L21.5029 9.2943C21.4916 9.2151 21.4803 9.1359 21.469 9.05671C21.4577 8.97751 21.4464 8.89832 21.4351 8.81912L6.50096 23.7532L4.83784 22.0901L19.755 7.17298C19.6758 7.16166 19.5909 7.15601 19.5004 7.15601C19.4099 7.13338 19.3137 7.11641 19.2119 7.1051L12.3388 6.2396Z" fill="white"></path>
+            </svg>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" id="svg-307749603_433">
+                <path d="M18.9796 13.5498L30.6361 0H27.8739L17.7525 11.7651L9.66858 0H0.344727L12.5692 17.7909L0.344727 32H3.10712L13.7956 19.5756L22.3328 32H31.6566L18.9789 13.5498H18.9796ZM15.1961 17.9477L13.9575 16.1761L4.10244 2.07948H8.34531L16.2985 13.4559L17.5371 15.2275L27.8752 30.0151H23.6323L15.1961 17.9484V17.9477Z" fill="#1DA1F3"></path>
+            </svg>
+            <svg width="33" height="33" viewBox="0 0 33 33" fill="none" id="svg-1113240288_1487">
+                <path d="M23.6991 0.531494H9.36087C4.49168 0.531494 0.530273 4.49309 0.530273 9.36228V23.7005C0.530273 28.5699 4.49168 32.5313 9.36087 32.5313H23.6991C28.5687 32.5313 32.5301 28.5697 32.5301 23.7005V9.36228C32.5303 4.49309 28.5687 0.531494 23.6991 0.531494ZM29.6911 23.7005C29.6911 27.0044 27.0031 29.6921 23.6993 29.6921H9.36087C6.05721 29.6923 3.36945 27.0044 3.36945 23.7005V9.36228C3.36945 6.05862 6.05721 3.37067 9.36087 3.37067H23.6991C27.003 3.37067 29.6909 6.05862 29.6909 9.36228V23.7005H29.6911Z" fill="#B25DAB"></path>
+                <path d="M16.5307 8.28613C11.984 8.28613 8.28516 11.985 8.28516 16.5317C8.28516 21.0781 11.984 24.7768 16.5307 24.7768C21.0774 24.7768 24.7762 21.0781 24.7762 16.5317C24.7762 11.985 21.0774 8.28613 16.5307 8.28613ZM16.5307 21.9375C13.5497 21.9375 11.1243 19.5124 11.1243 16.5315C11.1243 13.5503 13.5496 11.1251 16.5307 11.1251C19.5118 11.1251 21.9371 13.5503 21.9371 16.5315C21.9371 19.5124 19.5116 21.9375 16.5307 21.9375Z" fill="#B25DAB"></path>
+                <path d="M25.1221 5.87891C24.5751 5.87891 24.0377 6.10036 23.6514 6.48838C23.2632 6.87451 23.04 7.41206 23.04 7.96097C23.04 8.50817 23.2634 9.04554 23.6514 9.43356C24.0375 9.81969 24.5751 10.043 25.1221 10.043C25.671 10.043 26.2067 9.81969 26.5947 9.43356C26.9827 9.04554 27.2042 8.50799 27.2042 7.96097C27.2042 7.41206 26.9827 6.87451 26.5947 6.48838C26.2086 6.10036 25.671 5.87891 25.1221 5.87891Z" fill="#B25DAB"></path>
+            </svg>
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" id="svg-1297476223_1338">
+                <path d="M21.8044 30.8933C21.831 30.8853 21.8564 30.8747 21.883 30.8653C38.1697 24.3947 33.6644 0 15.999 0C7.13369 0 -0.000976562 7.22667 -0.000976562 16C-0.000976562 27.1027 11.2444 35.0253 21.8044 30.8933ZM7.04036 26.7453C8.17636 24.836 11.8524 19.4493 18.127 17.5907C19.439 20.936 20.359 24.8387 20.4497 29.264C15.695 30.8627 10.6804 29.7867 7.04036 26.7453ZM22.4164 28.4293C22.2417 24.1773 21.3737 20.4067 20.1364 17.14C22.9124 16.7067 26.1257 16.996 29.7697 18.456C28.995 22.804 26.215 26.4587 22.4164 28.4293ZM29.979 16.388C25.9657 14.88 22.4284 14.692 19.367 15.276C18.8937 14.2093 18.3964 13.184 17.8697 12.24C22.567 10.364 25.343 8.07733 26.5857 6.86667C28.779 9.40533 30.0817 12.692 29.979 16.388ZM25.1657 5.44267C24.035 6.51867 21.3724 8.692 16.819 10.4693C14.587 6.93867 12.2004 4.448 10.6884 3.05333C15.5257 1.06133 21.1044 1.912 25.1657 5.44267ZM8.77636 4.03067C9.91769 5.03467 12.423 7.44533 14.8404 11.1733C11.5204 12.2427 7.35769 13.028 2.29502 13.1387C3.10036 9.28 5.50569 6.01067 8.77636 4.03067ZM2.04169 15.1467C7.70836 15.0547 12.295 14.16 15.9204 12.9493C16.4217 13.828 16.8977 14.7853 17.355 15.78C11.0417 17.7907 7.09636 22.9813 5.58569 25.3253C3.14836 22.6053 1.80436 19.056 2.04169 15.1467Z" fill="#E4A6E9"></path>
+            </svg>
+            <svg width="33" height="21" viewBox="0 0 33 21" fill="none" id="svg1327378344_1217">
+                <path d="M1 20.3333H10.456C16.5253 20.3333 18.6307 12.2839 13.2653 9.39592C16.8667 6.25725 14.6373 0.333252 9.80534 0.333252H1C0.448 0.333252 0 0.781252 0 1.33325V19.3333C0 19.8853 0.448 20.3333 1 20.3333ZM2 2.33325H9.80534C14.0867 2.33325 14.092 8.69059 9.80534 8.69059H2V2.33325ZM2 10.6906H10.456C15.604 10.6906 15.604 18.3333 10.456 18.3333H2V10.6906Z" fill="#1F70FA"></path>
+                <path d="M24.4985 5.47583C20.1532 5.47583 16.8252 9.3265 16.9852 12.3545C16.6559 16.7278 20.1812 20.3332 24.4985 20.3332C27.1812 20.3332 29.6825 18.9132 31.0252 16.6252C31.6959 15.4825 29.9705 14.4745 29.3012 15.6118C28.3159 17.2905 26.4745 18.3332 24.4985 18.3332C21.5825 18.3332 19.2119 16.1092 18.9985 13.3052C20.9225 13.3278 24.5132 13.0545 30.9812 13.2612C31.0025 13.2612 31.0172 13.2505 31.0372 13.2505C33.7039 13.1305 30.7852 5.47583 24.4985 5.47583ZM19.2612 11.2065C20.9759 6.1545 28.2185 6.30516 29.7812 11.2918C24.3625 11.4212 21.1199 11.2038 19.2612 11.2065Z" fill="#1F70FA"></path>
+                <path d="M28.411 3.61865C29.735 3.61865 29.7336 1.61865 28.411 1.61865H20.5843C19.2603 1.61865 19.2616 3.61865 20.5843 3.61865H28.411Z" fill="#1F70FA"></path>
+            </svg>
+            <svg width="18" height="18" viewBox="-1 -1 18 18" fill="none" id="svg1923824404_481">
+                <path d="M7.09389 3.46299L8.26133 2.29556L13.0598 2.92064L13.6756 7.72826L12.5174 8.8865L12.0578 5.11762C12.0517 5.07472 12.0455 5.03182 12.0394 4.98893C12.0333 4.94603 12.0271 4.90313 12.021 4.86023L3.93171 12.9495L3.03086 12.0487L11.111 3.96857C11.0681 3.96244 11.0221 3.95938 10.9731 3.95938C10.9241 3.94712 10.872 3.93793 10.8168 3.9318L7.09389 3.46299Z" fill="#76BDBF"></path>
+            </svg>
+        </div>
+
+    <script src="java.js" defer></script>
+</body>
+</html>
