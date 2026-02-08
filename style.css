@@ -15,8 +15,8 @@
 }
 
 /* Base */
-*{box-sizing: border-box;scroll-margin-top:92px}
-html,body{height:100%;overflow-x: hidden;-webkit-user-select: none;-ms-user-select: none;user-select: none;}
+*{box-sizing: border-box;scroll-margin-top:92px;-webkit-user-select: none;-ms-user-select: none;user-select: none;}
+html,body{height:100%;overflow-x:hidden;-webkit-user-select: none;-ms-user-select: none;user-select: none;}
 html{scroll-behavior:smooth}
 body{
     margin:0;
