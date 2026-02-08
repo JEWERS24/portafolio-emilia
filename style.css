@@ -46,7 +46,8 @@ body::before{
 }
 
 .menu-toggle{
-  position: fixed;
+
+  padding: 0;
   top: 20px;
   z-index: 1001; /* más alto que la nav bar */
   background: none;
