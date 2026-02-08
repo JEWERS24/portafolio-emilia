@@ -273,6 +273,8 @@ section{scroll-margin-top:92px}
 
 /* Edge fade masks */
 .marquee::before,.marquee::after{content:"";position:absolute;top:0;bottom:0;width:12%;pointer-events:none;z-index:4}
+.marquee::before{left:0;background: linear-gradient(90deg, rgba(2,1,7,1) 0%, rgba(2,1,7,0) 100%);}
+.marquee::after{right:0;background: linear-gradient(270deg, rgba(2,1,7,1) 0%, rgba(2,1,7,0) 100%);}
 
 @keyframes marqueeScroll{
     0%{transform:translateX(0)}
